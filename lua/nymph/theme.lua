@@ -47,8 +47,8 @@ function M.set_colors()
 		Question = { fg = p.cyan },
 
 		MatchParen = { fg = p.yellow },
-		NonText = { fg = p.bg_alt },
-		SpecialKey = { fg = p.bg_alt },
+		NonText = { fg = p.fg_alt },
+		SpecialKey = { fg = p.fg_alt },
 		Whitespace = { fg = p.bg_alt },
 
 		Pmenu = { fg = p.fg, bg = p.bg_alt },
