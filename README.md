@@ -1,5 +1,5 @@
 <p align='center'>
-    <h2 align='center'>Ennui colorscheme</h2>
+    <h2 align='center'>nymph.nvim</h2>
 </p>
 <p align='center'> A little dark, soft and pleasing theme for night owls. </p>
 
