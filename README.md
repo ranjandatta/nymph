@@ -5,7 +5,7 @@
 
 # Preview
 <div align="center">
-    <img src="src/preview.png"> 
+    <img src="src/showcase.png"> 
 </div>
 
 # Colors
