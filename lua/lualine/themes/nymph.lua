@@ -27,8 +27,8 @@ return {
         c = { bg = p.bg_alt, fg = p.fg_alt },
     },
     inactive = {
-        a = { bg = p.bg_alt, fg = p.fg },
-        b = { bg = p.bg_alt, fg = p.fg },
+        a = { bg = p.bg_alt, fg = p.fg_alt },
+        b = { bg = p.bg_alt, fg = p.fg_alt },
         c = { bg = p.bg_alt, fg = p.fg_alt },
     },
 }
