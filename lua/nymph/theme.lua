@@ -48,7 +48,7 @@ function M.set_colors()
 		Title = { fg = p.cyan },
 		Question = { fg = p.cyan },
 
-		MatchParen = { fg = p.cyan, bg = p.bg_urgent },
+		MatchParen = { fg = p.orange, bg = p.bg_urgent },
 		NonText = { fg = p.fg_alt },
 		SpecialKey = { fg = p.fg_alt },
 		Whitespace = { fg = p.bg_alt },
