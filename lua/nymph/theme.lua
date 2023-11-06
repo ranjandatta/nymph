@@ -243,9 +243,9 @@ function M.set_colors()
 		TelescopeSelection = { fg = p.bg, bg = p.cyan },
 
 		-- hop.nvim
-		HopNextKey = { fg = p.red },
-		HopNextKey1 = { fg = p.yellow },
-		HopNextKey2 = { fg = p.green },
+		HopNextKey = { fg = p.yellow },
+		HopNextKey1 = { fg = p.orange },
+		HopNextKey2 = { fg = p.red },
 		HopUnmatched = { fg = p.fg_alt },
 		HopCursor = { bg = p.fg },
 		HopPreview = { fg = p.magenta }
