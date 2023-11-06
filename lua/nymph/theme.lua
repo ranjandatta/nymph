@@ -241,6 +241,15 @@ function M.set_colors()
 		TelescopeBorder = { fg = p.fg_alt, bg = p.bg },
 		TelescopeNormal = { fg = p.fg, bg = p.bg },
 		TelescopeSelection = { fg = p.bg, bg = p.cyan },
+
+		-- hop.nvim
+		HopNextKey = { fg = p.red },
+		HopNextKey1 = { fg = p.yellow },
+		HopNextKey2 = { fg = p.green },
+		HopUnmatched = { fg = p.fg_alt },
+		HopCursor = { bg = p.fg },
+		HopPreview = { fg = p.magenta }
+
 	}
 
 	vim.g.terminal_color_0 = p.bg
