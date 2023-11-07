@@ -238,9 +238,18 @@ function M.set_colors()
 		["@lsp.typemod.variable.injected"] = { link = "@variable" },
 
 		-- telescope.nvim: https://github.com/nvim-telescope/telescope.nvim
-		TelescopeBorder = { fg = p.fg_alt, bg = p.bg },
-		TelescopeNormal = { fg = p.fg, bg = p.bg },
-		TelescopeSelection = { fg = p.bg, bg = p.cyan },
+		TelescopeBorder = { fg = p.fg_alt, bg = p.bg_alt },
+		TelescopeNormal = { fg = p.fg, bg = p.bg_alt },
+		TelescopeSelection = { fg = p.fg, bg = p.bg_urgent },
+		TelescopeMatching = { fg = p.bg, bg = p.yellow },
+		TelescopePromptNormal = { fg = p.fg, bg = p.bg_urgent },
+		TelescopePromptTitle = { fg = p.fg_alt, bg = p.bg_urgent },
+		TelescopePromptBorder = { fg = p.fg_alt, bg = p.bg_urgent },
+		--TelescopePromptPrefix
+		--TelescopePreviewTitle
+		--TelescopePreviewBorder
+		--TelescopeResultsTitle
+		--TelescopeResultsBorder
 
 		-- hop.nvim
 		HopNextKey = { fg = p.yellow },
