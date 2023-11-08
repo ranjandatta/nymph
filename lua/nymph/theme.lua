@@ -7,10 +7,10 @@ function M.set_colors()
 		-- base highlights
 		Normal = { fg = p.fg, bg = p.bg },
 		NormalNC = { fg = p.fg, bg = p.bg },
-		SignColumn = { fg = p.bg, bg = p.bg },
-		FoldColumn = { fg = p.fg_alt, bg = p.bg },
-		VertSplit = { fg = p.bg_alt, bg = p.bg },
-		Folded = { fg = p.fg, bg = p.bg },
+		SignColumn = { fg = p.bg },
+		FoldColumn = { fg = p.fg_alt },
+		VertSplit = { fg = p.bg_alt },
+		Folded = { fg = p.fg },
 		EndOfBuffer = { fg = p.bg_alt },
 		ColorColumn = { bg = p.bg_alt },
 		Conceal = { fg = p.fg_alt },
@@ -29,14 +29,14 @@ function M.set_colors()
 		CursorLine = { bg = p.bg_alt },
 		CursorLineNr = { fg = p.cyan },
 		lCursor = { fg = p.fg, bg = p.fg },
-		LineNr = { fg = p.fg_alt, bg = p.bg },
+		LineNr = { fg = p.fg_alt },
 		TermCursor = { fg = p.fg, bg = p.fg },
 		TermCursorNC = { fg = p.fg, bg = p.fg },
 
-		DiffAdd = { fg = p.green, bg = p.bg },
-		DiffChange = { fg = p.yellow, bg = p.bg },
-		DiffDelete = { fg = p.red, bg = p.bg },
-		DiffText = { fg = p.fg, bg = p.bg },
+		DiffAdd = { fg = p.green },
+		DiffChange = { fg = p.yellow },
+		DiffDelete = { fg = p.red },
+		DiffText = { fg = p.fg },
 
 		Directory = { fg = p.blue },
 		ErrorMsg = { fg = p.red },
@@ -159,6 +159,7 @@ function M.set_colors()
 		NvimTreeStatusLineNC = { bg = p.bg, fg = p.bg },
 		NvimTreeSymlink = { fg = p.blue },
 		NvimTreeVertSplit = { fg = p.bg, bg = p.bg },
+		NvimTreeWindowPicker = { fg = p.red, bg = p.bg_alt },
 
 		-- nvim-treesitter: https://github.com/nvim-treesitter/nvim-treesitter
 		["@attribute"] = { fg = p.blue },
