@@ -9,9 +9,9 @@ function M.set_colors()
 		NormalNC = { fg = p.fg, bg = p.bg },
 		SignColumn = { fg = p.bg, bg = p.bg },
 		FoldColumn = { fg = p.fg_alt, bg = p.bg },
-		VertSplit = { fg = p.bg_urgent, bg = p.bg },
+		VertSplit = { fg = p.bg_alt, bg = p.bg },
 		Folded = { fg = p.fg, bg = p.bg },
-		EndOfBuffer = { fg = p.bg },
+		EndOfBuffer = { fg = p.bg_alt },
 		ColorColumn = { bg = p.bg_alt },
 		Conceal = { fg = p.fg_alt },
 		QuickFixLine = { bg = p.bg },
@@ -238,18 +238,17 @@ function M.set_colors()
 		["@lsp.typemod.variable.injected"] = { link = "@variable" },
 
 		-- telescope.nvim: https://github.com/nvim-telescope/telescope.nvim
-		TelescopeBorder = { fg = p.fg_alt, bg = p.bg_alt },
+		TelescopeBorder = { fg = p.bg_alt, bg = p.bg_alt },
 		TelescopeNormal = { fg = p.fg, bg = p.bg_alt },
 		TelescopeSelection = { fg = p.fg, bg = p.bg_urgent },
-		TelescopeMatching = { fg = p.bg, bg = p.yellow },
+		TelescopeMatching = { fg = p.bg, bg = p.cyan },
 		TelescopePromptNormal = { fg = p.fg, bg = p.bg_urgent },
-		TelescopePromptTitle = { fg = p.fg_alt, bg = p.bg_urgent },
-		TelescopePromptBorder = { fg = p.fg_alt, bg = p.bg_urgent },
-		--TelescopePromptPrefix
-		--TelescopePreviewTitle
-		--TelescopePreviewBorder
-		--TelescopeResultsTitle
-		--TelescopeResultsBorder
+		TelescopePromptTitle = { fg = p.cyan, bg = p.bg_urgent },
+		TelescopePromptBorder = { fg = p.bg_urgent, bg = p.bg_urgent },
+		TelescopePreviewTitle = { fg = p.fg_alt, bg = p.bg_alt },
+		TelescopePreviewBorder = { fg = p.bg_alt, bg = p.bg_alt },
+		TelescopeResultsTitle = { fg = p.fg_alt, bg = p.bg_alt },
+		TelescopeResultsBorder = { fg = p.bg_alt, bg = p.bg_alt },
 
 		-- hop.nvim
 		HopNextKey = { fg = p.yellow },
