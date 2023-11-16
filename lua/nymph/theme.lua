@@ -48,7 +48,7 @@ function M.set_colors()
 		Title = { fg = p.cyan },
 		Question = { fg = p.cyan },
 
-		MatchParen = { fg = p.orange, bg = p.bg_urgent },
+		MatchParen = { fg = p.yellow, bg = p.bg_urgent },
 		NonText = { fg = p.fg_alt },
 		SpecialKey = { fg = p.fg_alt },
 		Whitespace = { fg = p.bg_alt },
@@ -75,7 +75,7 @@ function M.set_colors()
 		Boolean = { fg = p.orange },
 		Character = { fg = p.orange },
 		Conditional = { fg = p.magenta },
-		Constant = { fg = p.blue },
+		Constant = { fg = p.fg },
 		Debug = { fg = p.blue },
 		Define = { fg = p.red },
 		Error = { fg = p.red },
@@ -167,9 +167,9 @@ function M.set_colors()
 		["@character"] = { fg = p.orange },
 		["@comment"] = { fg = p.fg_alt },
 		["@conditional"] = { fg = p.magenta },
-		["@constant"] = { fg = p.cyan },
-		["@constant.builtin"] = { fg = p.cyan },
-		["@constant.macro"] = { fg = p.cyan },
+		["@constant"] = { fg = p.fg },
+		["@constant.builtin"] = { fg = p.fg },
+		["@constant.macro"] = { fg = p.fg },
 		["@constructor"] = { fg = p.blue },
 		["@exception"] = { fg = p.magenta },
 		["@field"] = { fg = p.cyan },
@@ -207,20 +207,6 @@ function M.set_colors()
 		["@variable"] = { fg = p.fg },
 		["@variable.builtin"] = { fg = p.fg },
 		["@text"] = { fg = p.fg },
-		--["@text.danger"]
-		--["@text.emphasis"]
-		--["@text.environment.name"]
-		--["@text.environtment"]
-		--["@text.literal"]
-		--["@text.math"]
-		--["@text.note"]
-		--["@text.reference"]
-		--["@text.strike"]
-		--["@text.strong"]
-		--["@text.title"]
-		--["@text.underline"]
-		--["@text.uri"]
-		--["@text.warning"]
 
 		-- LSP semantic tokens
 		["@lsp.type.comment"] = { link = "@comment" },
