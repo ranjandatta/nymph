@@ -1,5 +1,5 @@
 <p align='center'>
-    <h2 align='center'>nymph colorscheme</h2>
+    <h2 align='center'>Nymph Theme</h2>
 </p>
 <p align='center'> A little dark, soft and pleasing theme for night owls. </p>
 
@@ -48,7 +48,7 @@
     <td><code>213, 190, 130</code></td>
 </tr>
 <tr>
-    <td><img src="src/Blue.png"></td>
+    <td><img src="src/blue.png"></td>
     <td><code>Blue</code></td>
     <td><code>#7C9BB4</code></td>
     <td><code>124, 155, 180</code></td>
