@@ -83,3 +83,4 @@
 - [Neovim](https://github.com/myagko/nymph/tree/Neovim)
 - [GTK](https://github.com/myagko/nymph/tree/GTK)
 - [Alacritty](https://github.com/myagko/nymph/tree/Alacritty)
+- [Wallpapers](https://github.com/myagko/nymph/tree/Wallpapers)
