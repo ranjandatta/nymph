@@ -1,8 +1,3 @@
-<p align='center'>
-    <h2 align='center'>Nymph</h2>
-</p>
-<p align='center'> A little dark, soft and pleasing theme for night owls. </p>
-
 # Colors
 <table align="center">
 <tr>
@@ -80,7 +75,6 @@
 </table>
 
 # Ports
+- [Alacritty](https://github.com/myagko/nymph/tree/Alacritty)
 - [Neovim](https://github.com/myagko/nymph/tree/Neovim)
 - [GTK](https://github.com/myagko/nymph/tree/GTK)
-- [Alacritty](https://github.com/myagko/nymph/tree/Alacritty)
-- [Wallpapers](https://github.com/myagko/nymph/tree/Wallpapers)
